@@ -11,10 +11,10 @@ public ApplicationUI(){
 }
 private void initializeControls() {
 	button = new Button("Hello World");
-	this.getChildren().add(button);
 }
 private void layoutControls() {
 	// TODO Auto-generated method stub
+	this.getChildren().add(button);
 	
 }
 }

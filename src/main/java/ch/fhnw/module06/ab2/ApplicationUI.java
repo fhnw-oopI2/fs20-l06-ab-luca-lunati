@@ -22,10 +22,10 @@ private void initializeControls() {
 	textField = new TextField("text field");
 	textArea = new TextArea("text area");
 	button = new Button("Ein Button");
-	this.getChildren().addAll(label,textField,textArea,button);
 }
 private void layoutControls() {
 	// TODO Auto-generated method stub
 	this.setPadding(new Insets(10));
+	this.getChildren().addAll(label,textField,textArea,button);
 }
 }
